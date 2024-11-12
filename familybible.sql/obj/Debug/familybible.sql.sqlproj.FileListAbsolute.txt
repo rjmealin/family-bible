@@ -1,0 +1,9 @@
+/Users/rosebud/code/familybible/familybible.sql/bin/Debug/familybible.sql.dacpac
+/Users/rosebud/code/familybible/familybible.sql/obj/Debug/Model.xml
+/Users/rosebud/code/familybible/familybible.sql/obj/Debug/refactor.xml
+/Users/rosebud/code/familybible/familybible.sql/obj/Debug/postdeploy.sql
+/Users/rosebud/code/familybible/familybible.sql/obj/Debug/predeploy.sql
+/Users/rosebud/code/familybible/familybible.sql/obj/Debug/familybible.sql.dll
+/Users/rosebud/code/familybible/familybible.sql/obj/Debug/familybible.sql.pdb
+/Users/rosebud/code/familybible/familybible.sql/bin/Debug/familybible.sql.dll
+/Users/rosebud/code/familybible/familybible.sql/bin/Debug/familybible.sql.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AG2YKF/Xx8yEUoxfN8k1n3hxs7f/WA84bkzXarooyP2TR38gzazeIahfB40Of0rwe8rvqXsduY7vZM0reGJWDQ==",
+  "success": true,
+  "projectFilePath": "/Users/rosebud/code/familybible/familybible.sql/familybible.sql.sqlproj",
+  "expectedPackageFiles": [
+    "/Users/rosebud/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "/Users/rosebud/.nuget/packages/microsoft.netframework.referenceassemblies.net46/1.0.0/microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

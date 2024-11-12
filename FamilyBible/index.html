@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./content/htmx.js"></script>
+    <link rel="stylesheet" href="./output.css">
+    
+    
+</head>
+<body>
+    <h1>
+        This is fun yay...
+    </h1>
+    http://localhost:5022/Bible
+    <div hx-get="/api/bible" hx-trigger="load">
+        LOADING!
+    </div>
+    <a href="dashboard.html">No this is the dashboard</a>
+</body>
+</html>

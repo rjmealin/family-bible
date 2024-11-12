@@ -1,0 +1,6 @@
+@FamilyBible.api_HostAddress = http://localhost:5022
+
+GET {{FamilyBible.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

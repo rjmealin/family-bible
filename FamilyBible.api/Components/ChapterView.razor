@@ -1,0 +1,42 @@
+@using FamilyBible.api.Entities
+<div id="@HtmlId" class="p-4 bg-gray-200 rounded border-1 shadow border-cyan-600">
+    <h3 class="text-2xl text-gray-600">Chapter @ChapterNumber</h3>
+    @foreach (var v in Verses)
+    {
+        <div class="flex flex-row items-center justify-start">
+            <p class="my-6">
+                <span class="font-bold font-xl">@v.Verse</span>
+                @v.Text
+            </p>
+            <div>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    Add Hyperlink
+                </button>
+                <select class="p-1 rounded-full " >
+                    <option>Hyperlinks</option>
+                    <optgroup label="Genesis">
+                        <option>Genesis 1:1</option>
+                        <option>Genesis 10:20</option>
+                    </optgroup>
+                    <optgroup label="Exodus">
+                        <option>Exodus 1:1</option>
+                        <option>Exodus 3:5</option>
+                    </optgroup>
+                </select>
+                
+            </div>
+        </div>
+        
+    }
+</div>
+
+
+
+@code {
+    [Parameter] public int BookId { get; set; }
+    [Parameter] public int ChapterNumber { get; set; }
+    [Parameter] public List<VerseModel> Verses { get; set; } = new List<VerseModel>();
+    private string HtmlId {
+        get => $"{BookId}-{ChapterNumber}";
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "U1oKV0TmfrnaDesXa2lj6E7cwGSZtXoRs3AJEDi/sbk=",
+  "Source": "FamilyBible.api",
+  "BasePath": "_content/FamilyBible.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
